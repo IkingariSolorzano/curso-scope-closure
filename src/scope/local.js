@@ -1,3 +1,7 @@
+// Lo primero es crear la carpeta con "mkdir scope-closure"
+// git init
+// npm init
+
 const helloWorld = () => {
   const hello = "HelloWorld";
   console.log(hello);
