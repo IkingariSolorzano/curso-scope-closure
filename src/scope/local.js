@@ -1,23 +1,8 @@
-// Lo primero es crear la carpeta con "mkdir scope-closure"
-// git init
-// npm init
-
 const helloWorld = () => {
-  const hello = "HelloWorld";
+  const hello = "Hello World";
   console.log(hello);
 };
 
-helloWorld();
-console.log(hello);
-
-var scope = "i am gobal";
-
-const functionScope = () => {
-  var scope = "i am just a local variable";
-  const func = () => {
-    return scope;
-  };
-  console.log(func());
-};
-
-functionScope();
+helloWorld(); // Hasta este punto se ejecuta la función sin ningún problema porquue se accede a la función
+//y es la misma función la que imprime el valor de la variable
+console.log(hello); // Esta línea no se ejecuta y genera error ya que la variable hello es una variable local

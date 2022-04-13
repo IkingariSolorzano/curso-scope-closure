@@ -1,3 +1,7 @@
+// Lo primero es crear la carpeta con "mkdir scope-closure"
+// git init
+// npm init
+
 //  ###### CLASE 1 ######
 // Estas variables a continuación están definidas en el scope global
 var hello = "Hello motherfuckers!"; // La variable hello se define global con var y por la part del codigo donde fue declarada
